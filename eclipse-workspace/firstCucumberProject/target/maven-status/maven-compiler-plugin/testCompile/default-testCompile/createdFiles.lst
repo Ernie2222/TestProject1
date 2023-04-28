@@ -1,0 +1,10 @@
+pages\AmazonHomePage.class
+utilities\DButils.class
+pages\GoogleSearch.class
+runners\SmokeTestRunner.class
+runners\RegressionRunner.class
+utilities\Driver.class
+step_definitions\CommonHooks.class
+runners\testRunner.class
+utilities\BrowserUtils.class
+utilities\DataReader.class

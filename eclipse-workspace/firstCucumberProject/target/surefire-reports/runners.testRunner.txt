@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: runners.testRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.5 s <<< FAILURE! - in runners.testRunner
+Google Search.Finding some cheese  Time elapsed: 0.134 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'I am on the google search' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I am on the google search")
+public void i_am_on_the_google_search() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I search for {string}")
+public void i_search_for(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the page title should start with {string}")
+public void the_page_title_should_start_with(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
