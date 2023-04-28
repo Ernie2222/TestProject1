@@ -19,7 +19,7 @@
 @tag
 Feature: Google Search
 
-  @tag1
+  @tag1 @RegressionTest
   Scenario: Finding some cheese
     Given I am on the google search
     When I search for "cheese!"
