@@ -7,9 +7,14 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
+		plugin = {"pretty",
+				"html:test_results/cucumber_report.html",
+				"json:test_results/cucumber_report.json"},
+				
 		features="./src/test/resources/features",
 		glue="step_definitions",
-		tags= "@tag1"
+		tags= "@tag1",
+		publish =
 		)
 public class testRunner {
 
